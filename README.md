@@ -1,7 +1,7 @@
 # Number-guess-game
 This mini console game asks you to guess a randomly generated number 
 
-e.x.
+e.g.
 
 Program: Find a number from 10 to 100
 You have 10 attempts
