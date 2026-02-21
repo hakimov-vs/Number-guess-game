@@ -29,7 +29,7 @@ The Number Guessing Game is a console application where users attempt to guess a
    ```
 3. Run the game in your console with any compiler:
    ```bash
-   main.cpp
+   main.exe
    ```
 
 ## Contributing
