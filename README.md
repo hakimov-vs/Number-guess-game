@@ -27,13 +27,10 @@ The Number Guessing Game is a console application where users attempt to guess a
    ```bash
    cd Number-guess-game
    ```
-3. Run the game in your console:
+3. Run the game in your console with any compiler:
    ```bash
-   python number_guessing_game.py
+   main.cpp
    ```
 
 ## Contributing
 If you want to contribute to the project, feel free to make a pull request or open an issue.
-
-## License
-This project is licensed under the MIT License.
