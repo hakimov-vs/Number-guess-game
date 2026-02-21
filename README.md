@@ -1,25 +1,39 @@
-# Number-guess-game
-This mini console game asks you to guess a randomly generated number 
+# Number Guessing Game
 
-e.g.
+## Overview
+The Number Guessing Game is a console application where users attempt to guess a randomly generated number within a specified range.
 
-Program: Find a number from 10 to 100
-You have 10 attempts
+## Features
+- Random number generation
+- User input handling
+- Feedback on guesses (too high, too low, or correct)
+- Play multiple rounds
 
-User: 50
+## How to Play
+1. The game will generate a random number between 1 and 100.
+2. Users have to guess the number.
+3. After each guess, the game will provide feedback:
+   - "Too high!" if the guess is above the target number.
+   - "Too low!" if the guess is below the target number.
+   - "Correct!" if the user guesses the number.
+4. Users can choose to play again after guessing the number.
 
-Program: The number is greater than the entered
-You have 9 attempts left
-User: 70
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/hakimov-vs/Number-guess-game.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Number-guess-game
+   ```
+3. Run the game in your console:
+   ```bash
+   python number_guessing_game.py
+   ```
 
-Program: The number is less than the entered
-You have 8 attempts left
+## Contributing
+If you want to contribute to the project, feel free to make a pull request or open an issue.
 
-User: 60
-
-Program: The number is greater than the entered
-You have 7 attempts left
-
-User: 65
-
-Program: Number is guessed from the 4 attempt
+## License
+This project is licensed under the MIT License.
